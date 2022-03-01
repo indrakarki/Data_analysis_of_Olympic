@@ -1,7 +1,10 @@
 import pandas as pd
 
 
-def preprocess(df, region_df):
+
+
+def preprocess(df,region_df):
+
     # filtering for summer season
     df = df[df['Season'] == 'Summer']
     # merge with region df
