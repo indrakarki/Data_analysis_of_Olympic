@@ -4,7 +4,7 @@ import seaborn as sns
 import preprocessor, helper
 import streamlit as st
 import plotly.express as px
-import plotly.figure_factory as ff
+import plotly.figure_factory  as ff
 
 df = pd.read_csv('athlete_events.csv')
 region_df = pd.read_csv('noc_regions.csv')
